@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="784.0" prefWidth="1042.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="651.0" layoutY="27.0" prefHeight="712.0" prefWidth="355.0" />
+      <Pane layoutX="33.0" layoutY="27.0" prefHeight="239.0" prefWidth="754.0">
+         <children>
+            <ImageView fitHeight="195.0" fitWidth="194.0" layoutX="14.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Shirt.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="233.0" layoutY="59.0" prefHeight="35.0" prefWidth="62.0" text="455.00">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="233.0" layoutY="102.0" text="T-Shirt">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="222.0" layoutY="140.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="33.0" layoutY="303.0" prefHeight="239.0" prefWidth="754.0">
+         <children>
+            <ImageView fitHeight="195.0" fitWidth="194.0" layoutX="14.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/hoodie.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="233.0" layoutY="59.0" prefHeight="35.0" prefWidth="69.0" text="1200.00">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="233.0" layoutY="102.0" text="Hoodie">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="222.0" layoutY="140.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="39.0" layoutY="542.0" prefHeight="239.0" prefWidth="754.0">
+         <children>
+            <ImageView fitHeight="195.0" fitWidth="194.0" layoutX="14.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/pts.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="233.0" layoutY="59.0" prefHeight="35.0" prefWidth="75.0" text="150.00">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="233.0" layoutY="102.0" text="Pants">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="222.0" layoutY="140.0" prefWidth="150.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

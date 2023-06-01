@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="57.0" layoutY="56.0" prefHeight="262.0" prefWidth="187.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-6.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="140.0" fitWidth="130.0" layoutX="30.0" layoutY="26.0">
+               <image>
+                  <Image url="@../images/Shirt.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="65.0" layoutY="177.0" prefHeight="17.0" prefWidth="57.0" text="T-shirt">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="75.0" layoutY="204.0" text="455.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="button1" layoutX="55.0" layoutY="221.0" mnemonicParsing="false" onAction="#buy" text="Add to Cart" textFill="#141414" />
+         </children>
+      </Pane>
+      <Pane layoutX="266.0" layoutY="68.0" prefHeight="256.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="140.0" fitWidth="137.0" layoutX="32.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/hoodie.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="72.0" layoutY="163.0" prefHeight="27.0" prefWidth="70.0" text="Hoodie">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="82.0" layoutY="188.0" text="1200.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="button2" layoutX="61.0" layoutY="205.0" mnemonicParsing="false" onAction="#buy" text="Add to Cart" textFill="#141414" />
+         </children>
+      </Pane>
+      <Pane layoutX="466.0" layoutY="69.0" prefHeight="262.0" prefWidth="187.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/pts.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="76.0" layoutY="193.0" text="150.00">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="166.0" prefHeight="17.0" prefWidth="57.0" text="Pants">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="button3" layoutX="55.0" layoutY="210.0" mnemonicParsing="false" onAction="#buy" text="Add to Cart" textFill="#141414" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
